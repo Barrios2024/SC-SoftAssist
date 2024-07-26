@@ -1,0 +1,54 @@
+
+
+
+.credentials-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.credentials-wrapper {
+    display: flex;
+}
+
+.credentials {
+    display: flex;
+    animation: scroll 12s linear infinite;
+}
+
+.credential {
+    min-width: 400px;
+    margin: 2px;
+    text-align: center;
+}
+.parallax-background{
+    min-width: 100px;
+    margin: 2px;
+    text-align: center;
+}
+
+.credential img {
+    width: 100%;
+    border-radius: 4px;
+}
+.parallax-background{
+    width: 100%;
+    border-radius: 4px;
+}
+.credential a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-weight: bold;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-200px * 9)); /* -200px * número de credenciales originales */
+    }
+}
+
+

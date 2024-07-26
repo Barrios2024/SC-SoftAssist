@@ -1,0 +1,47 @@
+
+
+
+
+/* Contenido de la dirección */
+#address-content {
+    position: relative;
+}
+
+
+/* Fondo transparente con padding */
+.bg-transparent {
+    background-color: rgba(9, 12, 9, 0.5);
+    padding: 100px 0;
+}
+
+/* Contenedor de Bootstrap */
+
+.icon i {
+    color: #1b632d;
+}
+
+/* Contenido de los ítems */
+.content-item {
+    flex: 1;
+}
+
+.content-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.content-item p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.content-item p span {
+    display: block;
+    margin-top: 5px;
+}
+
+.content-item p a {
+    color: #f1f7f1;
+    text-decoration: underline;
+}
